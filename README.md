@@ -64,8 +64,7 @@ $app->register(Eduzz\ActivityHistory\ActivityHistoryServiceProvider::class);
 
 No arquivo **config/activityhistory.php**, tem duas configurações iniciais a se fazer:
 
-* **ApplicationKey** => é o hash da aplicação que usará o Activity History. Necessário entrar em contato com a equipe para adquirir esta chave.
-* **BaseUrl** => Endpoint do Activity History fornecido pela equipe. 
+* **secret** => é o hash da aplicação que usará o Activity History. Necessário entrar em contato com a equipe para adquirir esta chave.
 
 ## Usando o Activity History
 

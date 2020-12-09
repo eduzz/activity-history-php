@@ -4,27 +4,10 @@ Esta lib tem como objetivo integrar os sistemas com o serviço Activity History 
 
 ## Instalação (via composer)
 
-Primeiro, vamos adicionar a dependência e o repositório do pacote no nosso arquivo composer.json:
-
-
-```json
-{
-    "require": {
-        "eduzz/activity-history-php": "~1.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:eduzz/activity-history-php.git"
-        }
-    ]
-}
-```
-
-Após configurado o composer, utilize o comando abaixo para instalar os pacotes do projeto.
+Utilize o comando abaixo para instalar os pacotes do projeto.
 
 ```sh
-    composer install
+    composer require eduzz/activity-history-php
 ```
 
 ## Projetos Laravel

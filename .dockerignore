@@ -1,0 +1,10 @@
+.git
+.history
+.vscode
+*/*/.DS_Store*
+**/.DS_Store*
+
+# Cleaning Laravel
+Jenkinsfile
+.dockerignore
+vendor

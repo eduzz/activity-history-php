@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  php:
+    build:
+      dockerfile: ./docker/test/Dockerfile
+      context: .
+    image: eduzz/contactcenter:tests
+    volumes:
+      - ./:/src
+    command:
+      - "/src/vendor/bin/phpunit"
+    environment:
+      - AMQP_TOPIC_AUDIT=activity.history.audit
+      - ACTIVITY_HISTORY_QUEUE_API_URL=https:\\activityhistory.eduzz.com

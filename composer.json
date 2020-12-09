@@ -1,0 +1,30 @@
+{
+    "name": "eduzz/activity-history-php",
+    "description": "Package Eduzz Activity History",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Eduzz\\ActivityHistory\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eduzz\\ActivityHistory\\Tests\\APIResponses\\" : "tests/APIResponses"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willians C. F. Ribeiro",
+            "email": "willians.ribeiro@eduzz.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^3.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2",
+        "phpunit/php-code-coverage": "^6.1"
+    }
+}

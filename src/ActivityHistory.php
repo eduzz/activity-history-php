@@ -2,7 +2,6 @@
 
 namespace Eduzz\ActivityHistory;
 
-
 use Eduzz\ActivityHistory\Constants\UserType;
 use Eduzz\ActivityHistory\Events\Event;
 use Eduzz\ActivityHistory\Library\QueueSenderApi;

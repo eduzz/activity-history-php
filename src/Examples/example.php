@@ -32,7 +32,7 @@ $manager->publish(
 
 //Usando Event Listener
 
-event(ActivityHistoryEvent->create(
+event((new ActivityHistoryEvent)->create(
     new ProductUpdate(
         [
             "user" => [],
@@ -48,4 +48,4 @@ event(ActivityHistoryEvent->create(
         ]
     )
     )
-)
+);

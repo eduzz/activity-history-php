@@ -19,7 +19,6 @@
         }
     ],
     "require": {
-        "ramsey/uuid": "^3.0",
         "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
